@@ -1,0 +1,30 @@
+{
+  "name": "skelenode-socket",
+  "version": "0.0.1",
+  "description": "Allows socket connections and converts socket requests to RESTful requests",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgolen/skelenode-socket.git"
+  },
+  "keywords": [
+    "skelenode",
+    "socket",
+    "REST"
+  ],
+  "author": "Tim Golen <tim@golen.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgolen/skelenode-socket/issues"
+  },
+  "homepage": "https://github.com/tgolen/skelenode-socket",
+  "dependencies": {
+    "bunyan": "^1.3.3",
+    "config": "^1.10.0",
+    "lodash": "^3.0.1",
+    "request": "^2.51.0",
+    "skelenode-dispatcher": "0.0.1",
+    "socket.io": "^1.3.2",
+    "url": "^0.10.2"
+  }
+}
