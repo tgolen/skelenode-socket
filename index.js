@@ -88,10 +88,12 @@ function connection(socket) {
 		}
 
 		var uri = 'http://' + config.get('host') + ':' + config.get('port') + args.url,
+			method = args.method || 'get',
 			options = {
 				headers: socket.handshake.headers,
 				url: uri,
-				method: (args.method || 'get').toLowerCase()
+				method: method.toLowerCase(),
+				form: args.data
 			},
 			req = request(options, function(err, res, body) {
 				res.fn = fn;

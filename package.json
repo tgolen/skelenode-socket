@@ -1,6 +1,6 @@
 {
   "name": "skelenode-socket",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Allows socket connections and converts socket requests to RESTful requests",
   "main": "index.js",
   "repository": {
