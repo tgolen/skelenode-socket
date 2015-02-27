@@ -18,5 +18,7 @@ var skelenodeSocket = require('skelenode-socket');
 skelenodeSocket(app, redisPort, redisHost, redisPassword);
 ```
 
+To connect to the Skelenode RESTful API from a web client, you should use [skelenode-api](https://github.com/tgolen/skelenode-api)
+
 # Contributing
 Open a pull request with plenty of well-written instructions on what you are submitting and why you are submitting it
